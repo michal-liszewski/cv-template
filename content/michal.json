@@ -1,0 +1,40 @@
+{"name": "Michal Liszewski",
+"address":{
+	"street":"206-327 Chisholm ave",
+	"postal_code":"M4C 4X1",
+	"city":"Toronto, Ontario",
+	"country":"Canada",
+	"phone":"+1 (416)8840545",
+	"email":"mliszewski[at]gmail.com"
+	},
+"professional_skills":[
+	{"name":"Programming Languages",
+	"skills":[ "Java", "Python", "C++"]},
+	{"name":"Technologies",
+	"skills":[ "Web services"]},
+	{"name":"Other skills",
+	"skills":["Big data analysis", "Scalability", "Distributed Computing"]}
+],
+"experience":[
+	{"company":"Amazon Fulfillment Services",
+	"time":"2012.11 - now",
+	"overview":["End to end development of multiple services"]},
+	{"company":"Axit sp z o.o.",
+	"time":"2012.04 - 2012.10",
+	"overview":["Member of the team responsible for fixing small bug and helping support team with various operational challenges in a large JavaEE application."]},
+	{"company":"Nokia Siemens Network",
+	"time":"2010.06 - 2012.04",
+	"overview":["Simulators"]}
+],
+"education":[
+{"school":"Wroclaw University of Technology",
+"duration":"2005-2012",
+"degree":"B. Sc.",
+"area":"Software Development Engineering"}
+],
+"certificates":[
+"Oracle Certified Professional Java Programmer (Java SE 6)"
+],
+"hobbies":[
+"Board Games", "Hiking"]
+}
