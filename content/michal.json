@@ -13,7 +13,9 @@
 	{"name":"Technologies",
 	"skills":[ "Web services"]},
 	{"name":"Other skills",
-	"skills":["Big data analysis", "Scalability", "Distributed Computing"]}
+	"skills":["Big data analysis", "Scalability", "Distributed Computing"]},
+	{"name":"Yet another set of skills",
+	"skills":["Cool stuff"]}
 ],
 "experience":[
 	{"company":"Amazon Fulfillment Services",
