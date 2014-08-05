@@ -17,7 +17,7 @@
 <script src="media/js/jquery-2.1.1.min.js"></script>
 <script src="media/js/handlebars-v1.3.0.js"></script>
 <script id="professional-template" type="text/x-handlebars-template">
-<div class="row professional">
+<div class="professional">
 	{{#each this}}
 		<div class="col-md-4">
 			<h4>
@@ -33,7 +33,7 @@
 </div>
 </script>
 <script id="experience-template" type="text/x-handlebars-template">
-<div class="experience row">
+<div class="experience">
 {{#each this}}
 	<div class="col-md-4">
 		<h4 class="text-info">{{company}}<br \> <small>{{time}}</small></h4>
@@ -47,7 +47,7 @@
 </div>
 </script>
 <script id="education-template" type="text/x-handlebars-template">
-<div class="education row">
+<div class="education">
 {{#each this}}
 	<div class="col-md-4">
 		<h4 class="text-info">{{school}}<br \> <small>{{duration}}</small></h4>
@@ -77,37 +77,56 @@
 		</div>
 	</div></div>
 </div>
-<div class="center-block container">
+<div class="center-block container bs-docs-grid">
 
-	<dl class="dl-horizontal">
-		<dt>Professional Skills</dt>
-		<dd>
-			{{>professional professional_skills}}
-		</dd>
-		<dt>Experience</dt>
-		<dd>
-			{{>experience experience}}
-		</dd>
-		<dt>Education</dt>
-		<dd>
-			{{>education education}}
-		</dd>
-		<dt>Certificates</dt>
-		<dd>
-			<ul class="list-unstyled">
+	<div class="row">
+		<div class="col-md-2 title">
+			<h3>Professional Skills</h3>
+		</div>
+		<div class="content col-md-8">
+		<div class="row">{{>professional professional_skills}}</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2 title">
+			<h3>Experience</h3>
+		</div>
+		<div class="content col-md-8">
+		<div class="row">{{>experience experience}}</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2 title">
+			<h3>Education</h3>
+		</div>
+		<div class="content col-md-8">
+		<div class="row">{{>education education}}</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2 title">
+			<h3>Certificates</h3>
+		</div>
+		<div class="content col-md-2">
+			<ul>
 			{{#each certificates}}
 				<li>{{this}}</li>
 			{{/each}}
 			</ul>
-		</dd>
-		<dt>Hobbies</dt>
-		<dd>
-			<ul class="list-inline">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2 title">
+			<h3>Hobbies</h3>
+		</div>
+		<div class="content col-md-2">
+			<ul>
 			{{#each hobbies}}
 				<li>{{this}}</li>
 			{{/each}}
-			</ul></dd>
-	</dl>
+			</ul>
+		</div>
+	</div>	
 </div>
 </script>
 <script>
