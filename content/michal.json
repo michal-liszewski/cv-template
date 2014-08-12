@@ -18,13 +18,18 @@
 "experience":[
 	{"company":"Amazon Fulfillment Services",
 	"time":"2012.11 - now",
-	"overview":["End to end development of multiple services in Supply Chain area."]},
+	"overview":["End to end development of multiple services in Supply Chain area."],
+	"projects":[{"name":"Freight Allowance Support Tools", "description":"Set of tools used for helping with business negotiations."},
+	{"Potential Vendor Service":"Service providing potential vendors for a given item"},
+	{"Code generator":"Code generation tool that greatly speeds up spinning up a web service, by generating repetitive code."}]},
 	{"company":"Axit sp z o.o.",
 	"time":"2012.04 - 2012.10",
 	"overview":["Member of the team responsible for fixing small bug and helping support team with various operational challenges in a large JavaEE application."]},
 	{"company":"Nokia Siemens Network",
 	"time":"2010.06 - 2012.04",
-	"overview":["Development of various tools used for testing."]}
+	"overview":["Development of various tools used for testing."],
+	"projects":[{"name":"Script converter", "description":"Script automatically converting to a new version of a domain specific language used for testing."},
+	{"Log scanner":"Tool for detecting hidden bugs by finding anomalies in logfiles."}]}
 ],
 "education":[
 {"school":"Wroclaw University of Technology",
