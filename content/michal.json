@@ -11,22 +11,20 @@
 	{"name":"Programming Languages",
 	"skills":[ "Java", "Python", "C++"]},
 	{"name":"Technologies",
-	"skills":[ "Web services"]},
+	"skills":[ "Web services", "AWS"]},
 	{"name":"Other skills",
-	"skills":["Big data analysis", "Scalability", "Distributed Computing"]},
-	{"name":"Yet another set of skills",
-	"skills":["Cool stuff"]}
+	"skills":["Big data analysis", "Scalability", "Distributed Computing"]}
 ],
 "experience":[
 	{"company":"Amazon Fulfillment Services",
 	"time":"2012.11 - now",
-	"overview":["End to end development of multiple services"]},
+	"overview":["End to end development of multiple services in Supply Chain area."]},
 	{"company":"Axit sp z o.o.",
 	"time":"2012.04 - 2012.10",
 	"overview":["Member of the team responsible for fixing small bug and helping support team with various operational challenges in a large JavaEE application."]},
 	{"company":"Nokia Siemens Network",
 	"time":"2010.06 - 2012.04",
-	"overview":["Simulators"]}
+	"overview":["Development of various tools used for testing."]}
 ],
 "education":[
 {"school":"Wroclaw University of Technology",
@@ -38,5 +36,5 @@
 "Oracle Certified Professional Java Programmer (Java SE 6)"
 ],
 "hobbies":[
-"Board Games", "Hiking"]
+"Board Games", "Hiking", "Chess"]
 }
