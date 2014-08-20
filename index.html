@@ -47,6 +47,16 @@ footer {
 			{{#each overview}}
 				<li>{{this}}</li>
 			{{/each}}
+		</ul>
+		{{#if projects}}
+		<strong>Notable projects</strong>
+		<dl>
+		{{#each projects}}
+		<dt>{{name}}</dt>
+		<dd>{{description}}</dd>
+		{{/each}}
+		</dl>
+		{{/if}}
 	</div>
 {{/each}}
 </div>
